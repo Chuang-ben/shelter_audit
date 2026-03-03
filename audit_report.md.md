@@ -1,5 +1,14 @@
 # 避難收容處所資料審核報告（Audit Report）
 
+> **專案檔案說明：**
+> - `shelter.csv` - 原始避難收容處所資料（來源：台灣政府開放資料平台）
+> - `shelter_audited.csv` - 審核後的資料檔案，包含所有原始資料及新增的審核旗標欄位
+> - `missing_address_rows.csv` - 地址缺失的資料紀錄
+> - `invalid_coordinates_rows.csv` - 座標超出合理範圍的資料紀錄
+> - `audit.py` - 資料審核的 Python 腳本
+> - `ai_prompts.md` - AI 分析提示文件
+> - `reflection.md` - 審核過程反思與改進建議
+
 ## 一、資料概述
 
 本次審核資料來源為台灣政府開放資料平台之避難收容處所點位資料，共計 5,973 筆紀錄，資料格式為 CSV。資料包含以下主要欄位：
