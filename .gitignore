@@ -1,0 +1,10 @@
+# Python files
+audit.py
+
+# CSV data files
+*.csv
+
+# Keep only documentation files
+!ai_prompts.md
+!audit_report.md
+!reflection.md
